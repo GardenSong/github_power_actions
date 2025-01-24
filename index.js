@@ -3,7 +3,7 @@ async function makeIssue() {
     // 요고 1
     const OWNER = "GardenSong"; // 여러분들의 github 계정 이름
     // 요고 2
-    const REPO = "github_power_actions"; // 여러분들의 현재 리포지터리 이름
+    const REPO = "github_power"; // 여러분들의 현재 리포지터리 이름
     const response = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/issues`, {
         method: 'POST',
         headers: {
